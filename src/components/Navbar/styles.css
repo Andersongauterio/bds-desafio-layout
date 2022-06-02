@@ -1,11 +1,32 @@
+.container-fluid {
+  display: flex;
+  padding: 0 0 0 0;
+}
+
 .main-nav {
-    padding-left: 40px;
-    min-height: 70px;
+  padding-left: 15px;
+  min-height: 50px;
+}
+
+.container-fluid h4 {
+  font-size: 18px;
 }
 
 .main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.navbar-dark {
+  background-image: linear-gradient(to right, #F78B00 , #F78B00);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%282, 8, 5, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+    border: 0;
 }

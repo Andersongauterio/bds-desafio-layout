@@ -5,8 +5,24 @@ import "./styles.css";
 const Catalog = () => {
   return (
     <>
-      <Search />
-      <CarCard />
+      <div className="catalog-container">
+        <Search />
+        <div className="row">
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <CarCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <CarCard />
+          </div>
+          
+        </div>
+      </div>
     </>
   );
 };
