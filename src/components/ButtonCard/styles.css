@@ -17,6 +17,7 @@
 .btn {
   margin: 0 0 0 20px;
   width: 100px;
+  height: 25px;
   background: #00285f;
   border-color: #00285f;
   border-radius: 5px;
@@ -27,6 +28,23 @@
   padding: 15px 0 0 10px;
 }
 
-.buttoncard-text p{
-  font-size: 12px;
+.buttoncard-text p {
+  font-size: 10px;
+  color: #585858;
+}
+
+@media (min-width: 1200px) {
+  .buttoncard-container {
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .buttoncard-container {
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+  }
 }

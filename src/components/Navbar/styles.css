@@ -3,6 +3,10 @@
   padding: 0 0 0 0;
 }
 
+.nav-logo-text {
+  color: #00285F;
+}
+
 .main-nav {
   padding-left: 15px;
   min-height: 50px;
@@ -14,8 +18,11 @@
 
 .main-menu {
   display: flex;
+  justify-content: end;
+  width: 180px;
   font-size: 18px;
-  width: 380px;
+  margin-right: 20px;
+  color: #00285F;
   justify-content: space-between;
 }
 
