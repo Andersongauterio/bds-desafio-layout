@@ -11,6 +11,7 @@ const CarCard = () => {
       <div className="card-bottom-container">
         <h6>Audi Supra TT</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+        <button className="btn btn-primary">COMPRAR</button>
       </div>
     </div>
   );

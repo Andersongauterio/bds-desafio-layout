@@ -5,5 +5,23 @@
     height: 75px;
     width: 100%;
     background: #ededed;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.search-button button {
+    font-size: 18px;
+    height: 25px;
+    margin-left: auto;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-container-input input {
+    height: 25px;
+    border-radius: 5px 0 0 5px;
+    border-color: #fff;
+}
+
+#search::placeholder {
+    font-size: 9px;
+    color: #A7A7A7;
 }
