@@ -3,3 +3,12 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (min-width: 992px) {
+
+    .catalog-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}

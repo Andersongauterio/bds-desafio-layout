@@ -8,16 +8,16 @@ const Catalog = () => {
       <div className="catalog-container">
         <Search />
         <div className="row">
-          <div className="col-6 col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
             <CarCard />
           </div>
-          <div className="col-6 col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
             <CarCard />
           </div>
-          <div className="col-6 col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
             <CarCard />
           </div>
-          <div className="col-6 col-sm-6 col-lg-4 col-xl-3">
+          <div className="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
             <CarCard />
           </div>
           
